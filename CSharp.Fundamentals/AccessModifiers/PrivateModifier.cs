@@ -7,7 +7,7 @@ namespace CSharp.Fundamentals.AccessModifiers
         static void Main(string[] args)
         {
             GetNumber num = new GetNumber();
-            //Console.WriteLine(num.number); // number variable can only accessible within its class.
+            // Console.WriteLine(num.number); // The number variable can only be accessed within its class.
         }
     }
 
