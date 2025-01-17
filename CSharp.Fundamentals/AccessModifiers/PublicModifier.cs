@@ -7,12 +7,12 @@ namespace CSharp.Fundamentals.AccessModifiers
         static void Main(string[] args)
         {
             var num = new GetNumber();
-            Console.WriteLine(num.number); // Can access because its modifier is public
+            Console.WriteLine(num.Number); // Can access because its modifier is public
         }
 
         class GetNumber
         {
-            public int number = 10;
+            public int Number = 10;
         }
     }
 }

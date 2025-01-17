@@ -9,21 +9,21 @@ namespace CSharp.Fundamentals.AccessModifiers
             void Display()
             {
                 ParentClass num = new ParentClass();
-                //Console.WriteLine(num.number); // Cannot access because the Protected Modifier class is not inherit from the Parent Class.
+                //Console.WriteLine(num.number); // Cannot access because the ProtectedModifier class does not inherit from the ParentClass.
             }
         }
     }
 
     class ParentClass
     {
-        protected int number = 10; //we can access this variable inside this class
+        protected int number = 10; // We can access this variable inside this class.
     }
 
-    class ChildClass : ParentClass 
+    class ChildClass : ParentClass
     {
         void Display()
         {
-            Console.WriteLine(number); //we can access it in this class as well because it inherit from the Parent class
+            Console.WriteLine(number); // We can access it in this class as well because it inherits from the ParentClass.
         }
     }
 }
