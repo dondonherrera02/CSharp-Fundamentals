@@ -1,6 +1,7 @@
 using System;
 using System.Collections.Generic;
 using CSharp.Fundamentals.LINQ;
+using CSharp.Fundamentals.LINQ.FilteringOperators;
 using NUnit.Framework;
 
 namespace CSharp.Console.Tests
